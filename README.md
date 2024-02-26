@@ -5,3 +5,5 @@ Example for Python
 ``` python
 print "Hello world!"
 ```
+
+Finish of the scripting
