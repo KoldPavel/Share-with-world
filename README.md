@@ -1,4 +1,4 @@
-# Share with world
+п»ї# Share with world
 ## Tricks
 *learn git, it is usefull tool*
 
@@ -8,15 +8,14 @@ cd  C:\Users\koldunov\Desktop\Koldunov\Revit\GitRepo\Share-with-world
 create clone
 $ git clone https://github.com/KoldPavel/Share-with-world.git
 
-Связать локальный и удаленный репозитории
-$ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
+РЎРІСЏР·Р°С‚СЊ Р»РѕРєР°Р»СЊРЅС‹Р№ Рё СѓРґР°Р»РµРЅРЅС‹Р№ СЂРµРїРѕР·РёС‚РѕСЂРёРё
+$ git remote add origin git@github.com:%РРњРЇ_РђРљРљРђРЈРќРўРђ%/first-project.git
 
-Убедиться, что репозитории связаны, — git remote -v
+РЈР±РµРґРёС‚СЊСЃСЏ, С‡С‚Рѕ СЂРµРїРѕР·РёС‚РѕСЂРёРё СЃРІСЏР·Р°РЅС‹, вЂ” git remote -v
 $ git remote -v
 
-Закинуть на ГитХаб из лок. репо
-$ git push -u origin main # -u для первого раза 
-
+Р—Р°РєРёРЅСѓС‚СЊ РЅР° Р“РёС‚РҐР°Р± РёР· Р»РѕРє. СЂРµРїРѕ
+$ git push -u origin main # -u РґР»СЏ РїРµСЂРІРѕРіРѕ СЂР°Р·Р° 
 
 
 
