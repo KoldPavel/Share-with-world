@@ -17,6 +17,21 @@ $ git remote -v
 Закинуть на ГитХаб из лок. репо
 $ git push -u origin main # -u для первого раза 
 
+Изменить последний коммит
+$ git commit --amend --no-edit
+$ git commit --amend -m "Новое сообщение"
+
+Откатить изменения (коммит)
+$ git restore --staged <file>
+
+Вызов git restore --staged example.txt перевёл example.txt из staged обратно в untracked.
+
+$ git restore --staged .   сбросит всю текущую папку (.).
+
+«Откатить» коммит — $ git reset --hard <commit hash>
+
+«Откатить» изменения, которые не попали ни в staging, ни в коммит, — git restore <file>
+
 
 
 Finish of the scripting
