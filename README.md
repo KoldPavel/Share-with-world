@@ -17,6 +17,14 @@ $ git remote -v
 Закинуть на ГитХаб из лок. репо
 $ git push -u origin main # -u для первого раза 
 
+Показать все коммиты
+$ git log
+ 
+Показать все коммиты в сокращенном виде
+$ git log --oneline
+
+Статусы файла
+stage, tracked, untracked, modified
 
 
 Finish of the scripting
